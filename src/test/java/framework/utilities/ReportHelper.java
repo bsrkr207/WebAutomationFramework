@@ -44,8 +44,8 @@ public class ReportHelper {
         return new File("ReportGenerator", threadLocalReportFolder.get() + "/" + reportName + "_" + sdfDateReport.format(now) + ".html").getPath();
     }
 
-    public static synchronized void createTest(String testName, String udid) {
-        ExtentTest extentTest = extent.get().createTest(testName, udid);
+    public static synchronized void createTest(String testName) {
+        ExtentTest extentTest = extent.get().createTest(testName);
         test.set(extentTest);
     }
 
