@@ -3,38 +3,20 @@
 <suite name="WebSanity" parallel="tests" thread-count="5">
     <test name="Home Page Tests" >
         <parameter name="browser" value="Chrome"/>
-        <parameter name="locality" value="Cloud"/>
+        <parameter name="locality" value="Local"/>
         <parameter name="testType" value="Sanity"/>
         <classes>
             <class name="framework.testcases.sanity.HomePage"/>
             <!-- Add more test classes if needed -->
         </classes>
     </test>
-    <test name="Home Page Tests2" >
-        <parameter name="browser" value="Safari"/>
-        <parameter name="locality" value="Cloud"/>
+<!--     <test name="Home Page Tests2" >
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="locality" value="Local"/>
         <parameter name="testType" value="Sanity"/>
         <classes>
             <class name="framework.testcases.sanity.HomePage"/>
             <!-- Add more test classes if needed -->
         </classes>
-    </test>
-<!--    <test name="Home Page Tests3">-->
-<!--        <parameter name="browser" value="Firefox"/>-->
-<!--        <parameter name="locality" value="Cloud"/>-->
-<!--        <parameter name="testType" value="Sanity"/>-->
-<!--        <classes>-->
-<!--            <class name="framework.testcases.sanity.HomePage"/>-->
-<!--            &lt;!&ndash; Add more test classes if needed &ndash;&gt;-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Home Page Tests4">-->
-<!--        <parameter name="browser" value="Edge"/>-->
-<!--        <parameter name="locality" value="Cloud"/>-->
-<!--        <parameter name="testType" value="Sanity"/>-->
-<!--        <classes>-->
-<!--            <class name="framework.testcases.sanity.HomePage"/>-->
-<!--            &lt;!&ndash; Add more test classes if needed &ndash;&gt;-->
-<!--        </classes>-->
-<!--    </test>-->
+    </test> -->
 </suite>
