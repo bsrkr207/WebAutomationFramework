@@ -10,13 +10,13 @@
             <!-- Add more test classes if needed -->
         </classes>
     </test>
-<!--     <test name="Home Page Tests2" >
-        <parameter name="browser" value="Firefox"/>
-        <parameter name="locality" value="Local"/>
-        <parameter name="testType" value="Sanity"/>
-        <classes>
-            <class name="framework.testcases.sanity.HomePage"/>
-            <!-- Add more test classes if needed -->
-        </classes>
-    </test> -->
+<!--     <test name="Home Page Tests2" >-->
+<!--        <parameter name="browser" value="Firefox"/>-->
+<!--        <parameter name="locality" value="Local"/>-->
+<!--        <parameter name="testType" value="Sanity"/>-->
+<!--        <classes>-->
+<!--            <class name="framework.testcases.sanity.HomePage"/>-->
+<!--            &lt;!&ndash; Add more test classes if needed &ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test> -->
 </suite>

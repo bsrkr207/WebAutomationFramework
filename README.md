@@ -57,13 +57,6 @@ git clone <repository-url>
 ```sh
 mvn clean install
 ```
-### **3. Encode credentials.json and add it to Github secrets**
-The credentials_prod.json and crdentials_uat.json files contains the credentials such as username and passwords
-These files need to be enoded with Base64 and then the files need to be added to GitHub secrets.
-To accomplish this, open PowerShell in the directory containing the JSON files and run the following command to generate encoded files:
-```sh
-[Convert]::ToBase64String([IO.File]::ReadAllBytes("credentials_prod.json")) > credentials_prod.json.base64
-```
 
 ### **4. Run Tests**
 - Run specific profile:
